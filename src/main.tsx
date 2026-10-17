@@ -1,0 +1,18 @@
+import './styles.css';
+import './demo-polish.css';
+import './cloud.css';
+import './cloud-polish.css';
+import './cloud-redesign.css';
+import './legacy-cloud/index-XHVaOVd2.js';
+import { installTaskTools } from './task-tools';
+import { installActivityView } from './activity-view';
+import { installFamilyProgress } from './family-progress';
+import { installSettingsView } from './settings-view';
+import { installResponsibilitiesView } from './responsibilities-view';
+import { installFamilyFeatures } from './family-features';
+installTaskTools();
+installActivityView();
+installFamilyProgress();
+installSettingsView();
+installResponsibilitiesView();
+installFamilyFeatures();
